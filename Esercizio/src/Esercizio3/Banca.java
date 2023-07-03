@@ -2,7 +2,7 @@ package Esercizio3;
 
 public class Banca {
 
-	public static void main(String[] args) throws BancaException {
+	public static void main(String[] args) {
 		ContoCorrente conto1 = new ContoCorrente("Grossi Mario", 20000.0);
 
 		System.out.println("Saldo conto: " + conto1.restituisciSaldo());
