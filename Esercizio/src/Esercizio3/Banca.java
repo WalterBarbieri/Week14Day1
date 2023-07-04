@@ -21,7 +21,7 @@ public class Banca {
 		conto2.stampaSaldo();
 
 		try {
-			conto2.preleva(2000);
+			conto2.preleva(1000);
 
 			conto2.stampaSaldo();
 
